@@ -1,0 +1,87 @@
+* {
+    box-sizing: border-box;
+}
+
+.body {
+    margin: 0px;
+    font-family: 'Single Day', cursive;
+}
+
+.header {
+    background-color: midnightblue;
+    color: crimson;
+    text-align: center;
+    padding: 20px;
+}
+
+nav {
+    background-color: red;
+    display: flex;
+    text-align: center;
+}
+
+nav a {
+    color: aliceblue;
+    text-align: center;
+    text-decoration: none;
+    padding: 20px;
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+aside {
+    flex: 50%;
+    background-color: aliceblue;
+    padding: 20px;
+}
+
+section {
+    flex: 50%;
+}
+
+.placeholder {
+    width: 100%;
+    padding: 20px;
+}
+
+footer {
+    text-align: center;
+    background-color: midnightblue;
+    color: red;
+    padding: 20px;
+}
+
+.main {
+    height: 50px;
+}
+
+.sub {
+    height: 75px;
+}
+
+@media screen and (max-width: 700px) {
+    .row,
+    nav {
+        flex-direction: column;
+    }
+}
+
+.flex-container {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.div1 {
+    flex: 30%;
+}
+
+.div2 {
+    flex: 10%;
+}
+
+.div3 {
+    flex: 30%;
+}
