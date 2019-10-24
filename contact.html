@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Contact</title>
+    <link rel="stylesheet" href="assets/css/style.css">
+
+</head>
+
+<body>
+    <header class="header">
+        <h1>
+                🦥 Sloth - Contact Us! 🦥
+        </h1>
+    </header>
+
+    <nav class="nav">
+        <a href="index.html">Home page</a>
+        <div class="dropdown">
+            <a href="" id="dropbutton">Item pages</a>
+            <div class="dropcontent">
+                <a href="item1.html">Sloths!</a>
+                <a href="item2.html">Sloth Memes</a>
+            </div>
+        </div>
+        <a href="contact.html">Contact Us</a>
+    </nav>    
+        <section>
+            <div class="contact-container">
+            <h2 class="comment-title">* Contacts Us Form *</h2>
+            <form id="contactform">
+                <input id="nameinput" type="text" placeholder="Enter your name here"> 
+                <br/>
+                <input id="emailinput" type="email" placeholder="Enter your email here"> 
+                <br/>
+                <input class="phoneinput" type="text"  placeholder="Enter your phone number here">
+                <br>
+                <textarea id="contactmessage" name="message"  cols="30" rows="10" placeholder="Enter message here"></textarea>
+                <br>
+                <button id="contactbutton" type="submit">Submit</button>
+            </form>
+            </div>
+            <div class="placeholder main"></div>
+        </section>   
+
+    <section id="commentarea">
+        <h2 class="comment-title">Comments</h2>       
+        <form class= "formclass">
+            <input id="commentname" type="text"  placeholder="Name">
+            <br/>
+            <textarea id="comment" name="comment" placeholder="Comment"></textarea>
+            <br/>            
+            <button id="submitcomment" type="submit" >Submit Comment</button>
+            <br/>
+            <div id="comments"></div>
+        </form>       
+    </section>
+
+
+    <footer class="footer">Copyright &copy; Sloth 2019 </footer>
+
+    <script src="./assets/js/main.js"></script>
+    <script src="./assets/js/contact.js"></script>
+
+</body>
+
+</html>

@@ -1,0 +1,32 @@
+[
+    {
+        "img" : "/assets/img/djsloth.gif",
+        "caption" : "Dj Sloth drops the bass",
+        "thoughts" : "good meme, good music"
+
+    },
+
+    {
+        "img" : "/assets/img/no.gif",
+        "caption" : "How about no",
+        "thoughts" : "very unimpressed sloth"
+    },
+
+    {
+        "img" : "/assets/img/onlysloth.jpg",
+        "caption" : "Only Sloth",
+        "thoughts" : "very vain sloth"
+    },
+
+    {
+        "img" : "/assets/img/slothplant.jpg",
+        "caption" : "Sneaky Sloth",
+        "thoughts" : "sloth is a plant, i like it"
+    },
+
+    {
+        "img" : "/assets/img/slothsin.jpg",
+        "caption" : "Sloth is a deadly sin",
+        "thoughts" : "sloth is not a sin"
+    }
+]

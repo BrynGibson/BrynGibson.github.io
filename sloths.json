@@ -1,0 +1,37 @@
+[
+    {
+        "name": "Pygmy three-toed sloth (Bradypus pygmaeus)",
+        "img" : "/assets/img/Pygmy.jpg",
+        "fact" : "The pygmy three-toed sloth can only be found on Isla Escudo de Veraguas which has been separated from mainland Panama for 9,000 years. The major threat to the pygmy three-toed sloth is habitat destruction which is reducing the size of its already small habitat."
+    },
+
+    {
+        "name": "Maned sloth (Bradypus torquatus)",
+        "img" : "/assets/img/Maned.jpg",
+        "fact" : "Due to its ‘upside down’ lifestyle the Maned three-toed Sloth has fur that is ‘backwards’ in that instead of being directed from the back down to the abdomen, it is directed from the abdomen to the back"
+    },
+
+    {
+        "name": "Pale-throated sloth (Bradypus tridactylus)",
+        "img" : "/assets/img/Pale.jpg",
+        "fact" : "The pale-throated three-toed sloth (Bradypus tridactylus) has a round but blunt head, small eyes, a slightly pointed nose but does not have visible ears, but it can hear. It lives a solitary life high up in the treetops of South American rainforests from Northern Argentina to Southern Honduras."
+    },
+
+    {
+        "name": "Brown-throated sloth (Bradypus variegatus)",
+        "img" : "/assets/img/Brown.jpg",
+        "fact" : "The Brown-throated Three-toed Sloth (Bradypus variegatus) lives in Central and South America in tropical forests. It is most famous for its arboreal lifestyle and its incredible slow movements... When it is on the ground, it is rather helpless, because the brown-throated three-toed sloth is built for a life in the trees, with its curved feet for tree-grabbing and the weakness of its limbs to support its own weight. It can sleep as much as twenty hours a day and reaches a speed of .1 to .3 miles per hour horizontally. They hide from their predators high in the trees, like the jaguar or the leopard. They are vulnerable to deforestation and habitat fragmentation, because of their slow movement and their special diet needs."
+    },
+        
+    {
+        "name": "Linnaeus’s two-toed sloth (Choloepus didactylus)",
+        "img" : "/assets/img/Linnaeus.jpg",
+        "fact" : "How fast (or slow) do they move? In a tree, it’s about three metres per minute, but on the ground, it’s a little slower at only two metres per minute. They’re actually quite dangerous because their claws are razor sharp but they’re not likely to catch you."
+    },
+
+    {
+        "name": "Hoffman’s two-toed sloth (Choloepus hoffmanni)",
+        "img" : "/assets/img/Hoffmann.jpg",
+        "fact" : "Why are they so still for so long? It’s due to their low energy diet. They try to save what little energy they have. They do this by moving very slowly and deliberately. And by sleeping up to 15 hours a day!"
+    }
+]

@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Memes</title>
+    <link rel="stylesheet" href="assets/css/style.css">
+
+</head>
+
+<body>
+    <header class="header">
+        <h1>
+                🦥 Sloth - Memes 🦥
+        </h1>
+    </header>
+
+    <nav class="nav">
+            <a href="index.html">Home page</a>
+            <div class="dropdown">
+                <a id="dropbutton" href="#">Item pages</a>
+                <div class="dropcontent">
+                    <a href="item1.html">Sloths</a>
+                    <a href="item2.html">Sloth Memes</a>
+                </div>
+            </div>
+            <a href="contact.html">Contact Us</a>
+    </nav>   
+
+    <div class="flex-container">
+        <table id="table">
+            <thead>
+                <tr>             
+                    <th>Meme</th>
+                    <th>caption</th>
+                    <th>my thoughts</th>  
+                </tr>
+            </thead>
+        </table>
+    </div>
+
+    <section id="commentarea">
+            <h2 class="comment-title">Comments</h2>
+            
+            <form class= "formclass">
+                <input id="commentname" type="text"  placeholder="Name">
+                <br/>
+                <textarea id="comment" name="comment" placeholder="Comment"></textarea>
+                <br/>            
+                <button id="submitcomment" type="submit" >Submit Comment</button>
+                <br/>
+                <div id="comments"></div>
+            </form>
+            
+        </section>
+
+
+
+
+        <footer class="footer">Copyright &copy; Sloth 2019 </footer>
+
+    <script src="./assets/js/main.js"></script>
+    <script src="./assets/js/memes.js"></script>
+    <script src="./assets/js/rating.js"></script>
+
+</body>
+
+</html>

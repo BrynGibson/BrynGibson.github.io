@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Sloths</title>
+    <link rel="stylesheet" href="assets/css/style.css">
+
+</head>
+
+<body>
+    <header class="header">
+        <h1>
+                🦥 Sloths 🦥
+        </h1>
+    </header>
+
+    <nav class="nav">
+            <a href="index.html">Home page</a>
+            <div class="dropdown">
+                <a id="dropbutton" href="#">Item pages</a>
+                <div class="dropcontent">
+                    <a href="item1.html">Sloths</a>
+                    <a href="item2.html">Sloth Memes</a>
+                </div>
+            </div>
+            <a href="contact.html">Contact Us</a>
+    </nav>
+    
+    <div class="outer-container">
+        <div class="inner-container">
+            <h2>About Bryn</h2>
+            <div class="placeholder main"></div>
+            <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc in sollicitudin risus. Sed justo metus, dignissim nec urna a, vulputate ultrices metus. Duis gravida lacus quis nisi pulvinar tincidunt. Quisque arcu risus, maximus sit amet tempus in, commodo
+                sit amet erat. Etiam porta, est sit amet consectetur interdum, nisl erat tincidunt nulla, consequat commodo nisi neque vel nisl. Curabitur in ullamcorper elit. Sed vestibulum ante sit amet ante sodales efficitur. Duis magna lacus, faucibus
+                feugiat metus suscipit, sodales vehicula enim. Nunc mollis porta sem sed imperdiet. In finibus, lorem eget elementum porta, purus tortor rutrum mauris, vel pellentesque massa nulla in nisl. Praesent dapibus arcu ipsum, at ullamcorper erat
+                rhoncus eu. Nam cursus, metus ullamcorper blandit feugiat, eros ligula consequat elit, a pellentesque magna sapien eget nisl. Nunc congue convallis tellus in cursus. Mauris in pellentesque sem. Nullam volutpat, nunc tempus sagittis pharetra,
+                dolor tellus lacinia augue, nec maximus risus ex a libero. In nec ante vel turpis tristique tincidunt.
+            </p>
+        </div>
+    </div>  
+    <div class="form-container">
+        <section>
+            <h4>Table of sloths</h4>
+                <table id="table">
+                        <thead>
+                            <tr>                   
+                                <th>Name</th>
+                                <th>Image</th>
+                                <th>Fact / info</th>
+                            </tr>
+                        </thead>
+                </table>  
+        </section>
+        <div>
+            <h2>Rate my website</h2>
+            <div class="stars" data-rating="3">
+                <span class="star">&nbsp;</span>
+                <span class="star">&nbsp;</span>
+                <span class="star">&nbsp;</span>
+                <span class="star">&nbsp;</span>
+                <span class="star">&nbsp;</span>
+            </div>
+        </div>
+    </div>
+
+    <section id="commentarea">
+            <h2 class="comment-title">Comments</h2>
+            
+            <form class= "formclass">
+                <input id="commentname" type="text"  placeholder="Name">
+                <br/>
+                <textarea id="comment" name="comment" placeholder="Comment"></textarea>
+                <br/>            
+                <button id="submitcomment" type="submit" >Submit Comment</button>
+                <br/>
+                <div id="comments"></div>
+            </form>
+            
+        </section>
+
+    <footer class="footer">Copyright &copy; Sloth 2019 </footer>
+
+    <script src="assets/js/main.js"></script>
+    <script src="/assets/js/sloths.js"></script>
+    <script src="/assets/js/rating.js"></script>
+</body>
+
+</html>
