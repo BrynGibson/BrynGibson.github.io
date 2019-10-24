@@ -12,7 +12,7 @@ fetch("sloths.json")
             table.innerHTML +=
             `<tr>
             <td>${e.name}</td>
-            <td><img src="${e.img}" alt="meme"></td>
+            <td><img src="${e.img}" alt="sloth"></td>
             <td><p>${e.fact}<p/></td>      
             </tr>`
         })
